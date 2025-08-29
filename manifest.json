@@ -1,0 +1,10 @@
+{
+    "manifest_version" : 3,
+    "name" : "audio manager",
+    "version" : "1.0",
+    "description" : "maages audio tabs",
+    "background" : {
+        "service_worker":"background.js"
+    },
+    "permissions":["tabs"]//"used to give extension to access tabs"
+}
